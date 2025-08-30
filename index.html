@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/youtube-favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>YouTube (Clone)</title>
+</head>
+<body>
+    <header>
+        <nav class="youtube-menu">
+        <button class="menu-btn" aria-label="Botão de Menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <h1>
+            <a href="#">
+                <img src="assets/images/youtube-logo.png" alt="Logo do YouTube">
+            </a>
+        </h1>
+        </nav>
+        <form class="search">   
+            <label for="search">Pesquisar no Youtube</label>
+            <input class="search-bar" id="search" type="search" aria-label="barra de pesquisa" placeholder="Pesquisar" name="search">
+            <button class="search-btn" type="submit"><img src="assets/images/search.svg" alt="botão pesquisar"></button>
+        </form>
+        <div class="profile-actions">
+            <button><img src="assets/images/video.svg" alt="botão meus videos"></button>
+            <button><img src="assets/images/bell.svg" alt="botão minhas notificações"></button>
+            <img src="assets/images/avatar-pantheon.JPG" alt="Meu avatar/perfil">
+        </div>
+    </header>
+    <main>
+        <div class="watching-video">
+            <iframe src="https://www.youtube.com/embed/QgPatjZ4zGs?si=5Q076-BQjXJxppl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>ChatGPT 5 - Tudo o que você precisa saber em 5 minutos!</h2>
+            <div class="actions-btn">
+                <div class="channel-info">
+                    <a href="#"><button><img class="avatar-channel" src="assets/images/channel-avatar.svg" alt="botão para ir a página do canal"></button></a>
+                    <div class="info">
+                        <a href="#" class="channel-name">Dio</a>
+                        <p>90 mil inscritos</p>
+                    </div>
+                </div>
+                <button class="subscribe-btn" aria-label="Botão de se Inscrever">
+                    <span>Inscreva-se</span>
+                </button>
+                <div class="group-btn">
+                    <button class="button-thumbs-up" aria-label="Botão Gostei">
+                        <img src="assets/images/actions-btn/thumbs-up.svg" alt="">
+                        <span>2 mil</span>
+                    </button>
+                    <button class="button-thumbs-down" aria-label="Botão Não gostei">
+                        <img src="assets/images/actions-btn/thumbs-down.svg" alt="">
+                        <span>Não gostei</span>
+                    </button>
+                    <button class="button-share" aria-label="Botão de Compartilhar o video">
+                        <img src="assets/images/actions-btn/share-2.svg" alt="">
+                        <span>Compartilhar</span>
+                    </button>
+                    <button class="button-download" aria-label="Botão de Download">
+                        <img src="assets/images/actions-btn/download.svg" alt="">
+                        <span>Download</span>
+                    </button>
+                    <button class="button-more-options" aria-label="Botão de Mais opções">
+                        <span>···</span>
+                    </button>
+                </div>
+            </div>
+            <div class="video-description">
+                <h3>549 visualizações  11 de ago. de 2025  <span>#GPT5</span> <span>#DIO</span> <span>#IA</span></h3>
+                <p>Aproveite e assine o DIO PRO Vitalício para desbloquear acesso para sempre a + 1750 bootcamps, cursos, projetos e formações 👉 <a href="https://c.dio.me/0Sp7Ix" class="link-site">https://c.dio.me/0Sp7Ix</a></p>
+                <p>O novo modelo da OpenAI é unificado, adaptativo e realmente multimodal, entendendo texto, imagem, áudio e vídeo no mesmo contexto. Ele alterna automaticamente entre versões mais rápidas ou mais profundas, reduz em até 45% as alucinações, melhora o raciocínio em múltiplas etapas e ainda consegue replicar tons emocionais com precisão assustadora.</p>
+                <p>Com conectividade nativa a serviços como Gmail e Google Calendar, o GPT-5 permite criar automações e agentes inteligentes que vão muito além do chat. Ideal para programadores, criadores de conteúdo e empresas que buscam aplicações práticas e seguras de IA.</p>
+                <p>💡 Neste vídeo, o Felipão da DIO explica todas as novidades, como aproveitar esses recursos agora mesmo e como aprender a construir projetos reais com GPT-5 no Dio PRO.</p>
+                <p>📌 Comenta aqui qual projeto com GPT-5 você quer ver na prática!</p>
+            </div>
+        </div>
+        <div class="sidebar-videos">
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-1.png" alt="video - geração tech unimed - bh - ciência de dados">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Geração Tech Unimed - BH - Ciência de dados</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">2,1 mil visualizações</p>
+                    <p class="time-video">Transmitido há 2 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-2.png" alt="video - Scrum talks">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Scrum Talks</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">1,6 mil visualizações</p>
+                    <p class="time-video">Transmitido há 3 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-3.png" alt="video - machine learning avançado">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Machine Learning Avançado - Fast Track</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">1,7 mil visualizações</p>
+                    <p class="time-video">Transmitido há 4 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-4.png" alt="video - global skills #2 - project planning">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Global Skills #2 - Project Planning</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">971 visualizações</p>
+                    <p class="time-video">Transmitido há 5 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-5.png" alt="video - como aprender a programar python do zero">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Como aprender a programar python do ZERO</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">711 visualizações</p>
+                    <p class="time-video">Transmitido há 6 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-1.png" alt="video - geração tech unimed - bh - ciência de dados">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Geração Tech Unimed - BH - Ciência de dados</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">2,1 mil visualizações</p>
+                    <p class="time-video">Transmitido há 2 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-2.png" alt="video - Scrum talks">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Scrum Talks</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">1,6 mil visualizações</p>
+                    <p class="time-video">Transmitido há 3 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-3.png" alt="video - machine learning avançado">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Machine Learning Avançado - Fast Track</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">1,7 mil visualizações</p>
+                    <p class="time-video">Transmitido há 4 dias</p>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-4.png" alt="video - global skills #2 - project planning">
+                </div>
+                <div class="videos-details">
+                    <h3 class="title-video">Global Skills #2 - Project Planning</h3>
+                    <p class="channel-video">DigitalInnovationOne</p>
+                    <p class="views-video">971 visualizações</p>
+                    <p class="time-video">Transmitido há 5 dias</p>
+                </div>
+            </a>
+    </main>
+    <footer>
+        <h4>Clone do YouTube - <span>Vann_Black</span></h4>
+    </footer>
+</body>
+</html>
