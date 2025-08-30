@@ -18,7 +18,7 @@ Essa limitação intencional ajuda a aprofundar o domínio do Flexbox e a desenv
 ## 🎯 Objetivo
 Reproduzir o layout do YouTube com fidelidade visual, aplicando boas práticas de estruturação e estilização com Flexbox.
 
-## 📸 Preview
+## 📸 Preview -- Link funcional GitHub Pages: https://ivan-c77.github.io/Clone-YouTube-CSS-Challenge-2-by-MicheleAmbrosio-Dio.me/
 <img width="1590" height="938" alt="Clone-YoutubePage" src="https://github.com/user-attachments/assets/d6af49ff-eb21-4cf1-8755-179858191936" />
 
 ## 📚 Creditos / Instrutor(a)
